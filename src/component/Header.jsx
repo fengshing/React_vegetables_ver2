@@ -15,7 +15,7 @@ const Header = () =>{
             </a>
             <a className="btn-social" href="https://www.instagram.com/gengtian168/" target="_blank">
               <img className="icon" src={iconIG} alt="instagram"/>
-              <img className="icon" alt="instagram" src="../public/icon/btn-instagram.svg" />
+              {/* <img className="icon" alt="instagram" src="../public/icon/btn-instagram.svg" /> */}
             </a>
             <div className="divider-a"></div>
             <button className="btn-outline">LOGIN</button>
