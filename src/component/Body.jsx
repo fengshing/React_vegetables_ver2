@@ -1,3 +1,7 @@
+import imgCarrot from '../../public/img/img-vegetables-carrot@2x.png';
+import imgCorn from '../../public/img/img-vegetables-corn@2x.png';
+import imgPepper from '../../public/img/img-vegetables-pepper@2x.png';
+
 
 const Body = () =>{
     return (
@@ -16,10 +20,12 @@ const Body = () =>{
                             <div className="box-title-text">Vegetables</div>
                         </div>
                         <div className="box-imggroup">
-                            <img src={require('../../public/img/img-vegetables-carrot@2x.png')} alt="carrot"/>
+                            <img className="img-vegetables-carrot-icon" src={imgCarrot} alt="carrot"/>
+                            <img className="img-vegetables-carrot-icon" src={imgCorn} alt="corn"/>
+                            <img className="img-vegetables-carrot-icon" src={imgPepper} alt="pepper"/>
                             {/* <img className="img-vegetables-carrot-icon" alt="carrot" src="../../public/img/img-vegetables-carrot@2x.png" /> */}
-                            <img className="img-vegetables-carrot-icon" alt="corn" src="../../public/img/img-vegetables-corn@2x.png" />
-                            <img className="img-vegetables-carrot-icon" alt="pepper" src="../../public/img/img-vegetables-pepper@2x.png" />
+                            {/* <img className="img-vegetables-carrot-icon" alt="corn" src="../../public/img/img-vegetables-corn@2x.png" /> */}
+                            {/* <img className="img-vegetables-carrot-icon" alt="pepper" src="../../public/img/img-vegetables-pepper@2x.png" /> */}
                         </div>
                     </aside>
                     {/* 此區為第三級內容，放置說明文字 */}
