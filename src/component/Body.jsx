@@ -1,3 +1,4 @@
+import imgPumkin from '../../public/img/img-main-pumpkin@2x.png'
 import imgCarrot from '../../public/img/img-vegetables-carrot@2x.png';
 import imgCorn from '../../public/img/img-vegetables-corn@2x.png';
 import imgPepper from '../../public/img/img-vegetables-pepper@2x.png';
@@ -10,7 +11,8 @@ const Body = () =>{
             <div className="body">
                 {/* 此區為主要內容，有大南瓜圖 */}
                 <main className="box-main-content">
-                    <img className="img-main-pumpkin" alt="pumpkin" src="../../public/img/img-main-pumpkin@2x.png" />
+                    <img className="img-vegetables-carrot-icon" src={imgPumkin} alt="pumkin"/>
+                    {/* <img className="img-main-pumpkin" alt="pumpkin" src="../../public/img/img-main-pumpkin@2x.png" /> */}
                 </main>
                 {/* 此區為次要內容，有其餘蔬菜與說明文字 */}
                 <article className="box-secondary-content">

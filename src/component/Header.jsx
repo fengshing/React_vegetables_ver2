@@ -1,3 +1,6 @@
+import iconFB from '../../public/icon/btn-facebook.svg'
+import iconIG from '../../public/icon/btn-instagram.svg'
+
 const Header = () =>{
   return (
     <>
@@ -7,9 +10,11 @@ const Header = () =>{
           <a className="btn-gotohome">Vegetables</a>
           <div className="box-btngroup">
             <a className="btn-social" href="https://www.facebook.com/xing.feng1/" target="_blank">
-              <img className="icon" alt="facebook" src="../public/icon/btn-facebook.svg" />
+              <img className="icon" src={iconFB} alt="facebook"/>
+              {/* <img className="icon" alt="facebook" src="../public/icon/btn-facebook.svg" /> */}
             </a>
             <a className="btn-social" href="https://www.instagram.com/gengtian168/" target="_blank">
+              <img className="icon" src={iconIG} alt="instagram"/>
               <img className="icon" alt="instagram" src="../public/icon/btn-instagram.svg" />
             </a>
             <div className="divider-a"></div>
