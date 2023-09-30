@@ -1,0 +1,56 @@
+
+/* 以下是guideline設定 */
+/* 以下是guideline設定 */
+/* 以下是guideline設定 */
+
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+:root {
+    /* fonts */
+    --NotoSans: "Noto Sans";
+  
+    /* font sizes */
+    --text-content: 12px;
+    --head2: 16px;
+    --text-btn: 14px;
+    --head1: 44px;
+  
+    /* font line height */
+    --text-content-lineheight: 150%;
+    --head2-lineheight: 150%;
+    --text-btn-lineheight: 100%;
+    --head1-lineheight: 100%;
+  
+    /* Colors */
+    --bg: #edf2c5;
+    --primary: #778a50;
+    --btn-outline-hover: #596344;
+    --content-bg: #f7fbda;
+    --content-text: #7d7d7d;
+    --btn-onlytext-hover: #d4d9ac;
+    --btn-active: #FAFFF1;
+  
+    /* Gaps */
+    --gap-8: 8px;
+    --gap-24: 24px;
+    --gap-0: 0px;
+    --gap-16: 16px;
+  
+    /* Paddings */
+    --padding-16: 16px;
+    --padding-160: 160px;
+    --padding-80: 80px;
+    --padding-40: 40px;
+    --padding-8: 8px;
+    --padding-10: 10px;
+    --padding-30: 30px;
+    --padding-24: 24px;
+    --padding-4: 4px;
+  
+    /* Border radiuses */
+    --br-3: 3px;
+}
+  

@@ -1,0 +1,106 @@
+
+
+/* 以下是響應設定 */
+/* 以下是響應設定 */
+/* 以下是響應設定 */
+
+
+@media screen and (max-width: 1200px) {
+    .box-infoandbutton {
+      gap: var(--gap-0);
+      padding-left: 0;
+      padding-right: 0;
+      box-sizing: border-box;
+    }
+    .nav {
+      flex-direction: row;
+    }
+    .header {
+      padding-left: var(--padding-80);
+      padding-right: var(--padding-80);
+      box-sizing: border-box;
+    }
+    .box-contactgroup {
+      gap: var(--gap-8);
+      padding-top: var(--padding-8);
+      padding-bottom: var(--padding-8);
+      box-sizing: border-box;
+    }
+    .body {
+      padding-left: var(--padding-80);
+      padding-right: var(--padding-80);
+      box-sizing: border-box;
+    }
+    .vegetable-layout-rwd {
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 960px) {
+    .box-btngroup {
+      gap: var(--gap-8);
+    }
+    .box-infoandbutton {
+      gap: var(--gap-0);
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 0;
+      padding-right: 0;
+      box-sizing: border-box;
+    }
+    .nav {
+      flex-direction: row;
+      gap: var(--gap-24);
+    }
+    .body,
+    .header {
+      padding-left: var(--padding-40);
+      padding-right: var(--padding-40);
+      box-sizing: border-box;
+    }
+    .vegetable-layout-rwd {
+      flex-direction: column;
+    }
+    .img-main-pumpkin {
+      height: 320px; /* 更改圖像高度 */
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .box-infoandbutton {
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: var(--padding-8);
+      box-sizing: border-box;
+    }
+    .box-infoandbutton,
+    .nav {
+      flex-direction: column;
+      gap: var(--gap-16);
+    }
+    .header {
+      padding-left: var(--padding-16);
+      padding-right: var(--padding-16);
+      box-sizing: border-box;
+    }
+    .img-main-pumpkin {
+      height: 224px; /* 更改圖像高度 */
+    }
+    
+    .box-title {
+      padding-left: var(--padding-24);
+      box-sizing: border-box;
+    }
+    .box-title {
+      padding-right: var(--padding-24);
+    }
+    .box-secondary-content {
+      gap: var(--gap-16);
+    }
+    .body {
+      padding-left: var(--padding-16);
+      padding-right: var(--padding-16);
+      box-sizing: border-box;
+    }
+  }
+  
+  

@@ -1,11 +1,11 @@
-
-export default function Footer() {
+const Footer = () =>{
     return (
         <>
-            <footer class="box-footer">
+            <footer className="box-footer">
                 Copyrights 2017 Vegetables cise / Design by Vegetables
             </footer>
         </>
     )
 }
 
+export default Footer;
