@@ -16,7 +16,8 @@ const Body = () =>{
                             <div className="box-title-text">Vegetables</div>
                         </div>
                         <div className="box-imggroup">
-                            <img className="img-vegetables-carrot-icon" alt="carrot" src="../../public/img/img-vegetables-carrot@2x.png" />
+                            <img src={require('../../public/img/img-vegetables-carrot@2x.png')} alt="carrot"/>
+                            {/* <img className="img-vegetables-carrot-icon" alt="carrot" src="../../public/img/img-vegetables-carrot@2x.png" /> */}
                             <img className="img-vegetables-carrot-icon" alt="corn" src="../../public/img/img-vegetables-corn@2x.png" />
                             <img className="img-vegetables-carrot-icon" alt="pepper" src="../../public/img/img-vegetables-pepper@2x.png" />
                         </div>
