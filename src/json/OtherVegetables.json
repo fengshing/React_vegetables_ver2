@@ -2,16 +2,16 @@
     {
         "id":1,
         "Vegetable_name":"carrot",
-        "Vegetable_img":"public/img/img-vegetables-carrot@2x.png"
+        "Vegetable_img":"img/img-vegetables-carrot@2x.png"
     },
     {
         "id":2,
         "Vegetable_name":"corn",
-        "Vegetable_img":"public/img/img-vegetables-corn@2x.png"
+        "Vegetable_img":"img/img-vegetables-corn@2x.png"
     },
     {
         "id":3,
         "Vegetable_name":"pepper",
-        "Vegetable_img":"public/img/img-vegetables-pepper@2x.png"
+        "Vegetable_img":"img/img-vegetables-pepper@2x.png"
     }
 ]
