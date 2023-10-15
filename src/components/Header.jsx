@@ -1,7 +1,8 @@
 import iconFB from '../../public/icon/btn-facebook.svg'
 import iconIG from '../../public/icon/btn-instagram.svg'
 
-const Header = () =>{
+// const Header = () =>{
+function Header() {
   return (
     <>
       <header className="header">

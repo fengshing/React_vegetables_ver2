@@ -1,4 +1,5 @@
-const Footer = () =>{
+// const Footer = () =>{
+function Footer() {
     return (
         <>
             <footer className="box-footer">
