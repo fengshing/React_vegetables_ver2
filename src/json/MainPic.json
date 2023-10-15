@@ -1,6 +1,6 @@
 [
     {
-        "MainPic_img":"../../public/img/img-main-pumpkin@2x.png",
+        "MainPic_img":"public/img/img-main-pumpkin@2x.png",
         "MainPic_name":"pumkin"
     }
 ]
